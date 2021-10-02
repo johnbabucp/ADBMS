@@ -35,7 +35,6 @@ db.empDetails.insert({Name:"Harsha",Age:28,Email:"anu@gmail.com",salary:15000})
 
 -- H) Update the e-mail of employee whose name is mohan // findOneAndUpdate()
 	db.empDetails.updateOne({Name:'Mohan'},{$set:{Email:'mohan12345@gmail.com'}})
-
 	db.empDetails.updateOne({Name:'Mohan'},{$set:{Email:'mohan12345@gmail.com'}})
 
 -- I) Delete all the documents of employees whose age>56
